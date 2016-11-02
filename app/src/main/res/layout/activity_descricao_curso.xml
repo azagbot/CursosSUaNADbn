@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="375dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:id="@+id/imageView_Descricao"
+        android:background="@drawable/workingmac"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/textView_Descricao_CURSO"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:text="Desenvolvimento iOS"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/TextColorSecondary"
+        android:textSize="20sp"
+        android:text="Comece o curso"
+        android:background="@drawable/input_instituto"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Descrição:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="  Aplicações Android estão em todo lugar e aprender a criá-las pode ser um movimento fantástico para sua carreira. Você não tem nenhuma experiência em programação? Isso não será um problema! Os conhecimentos que você vai adquirir neste Nanodegree iniciante acelerarão sua jornada para começar a trabalhar como Desenvolvedor Android.
+
+Aprenda a linguagem Java e comece a construir novos aplicativos espetaculares para bilhões de dispositivos Android!"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:textSize="20sp"
+                android:text="Conteúdo:"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="  Aplicações Android estão em todo lugar e aprender a criá-las pode ser um movimento fantástico para sua carreira. Você não tem nenhuma experiência em programação? Isso não será um problema! Os conhecimentos que você vai adquirir neste Nanodegree iniciante acelerarão sua jornada para começar a trabalhar como Desenvolvedor Android.
+
+Aprenda a linguagem Java e comece a construir novos aplicativos espetaculares para bilhões de dispositivos Android!"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+</ScrollView>

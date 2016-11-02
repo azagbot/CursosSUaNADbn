@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cursos</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section:</string>
+    <string-array name="spinner_list_item_array">
+        <item>Cursos online</item>
+        <item>Distrito Federal</item>
+        <item>Amazonas</item>
+    </string-array>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f44336</color>
+    <color name="colorPrimaryDark">#d32f2f</color>
+    <color name="colorAccent">#ffeb3b</color>
+    <color name="colorAccentDark">#fbc02d</color>
+    <color name="TextColorSecondary">#727272</color>
+
+    <color name="dot_light">#c0c3c6</color>
+    <color name="dot_dark">#727272</color>
+    <array name="dot_active">
+        <item>@color/dot_dark</item>
+    </array>
+    <array name="dot_inactive">
+        <item>@color/dot_light</item>
+    </array>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/menu_cursos"
+        icon="@android:drawable/ic_dialog_dialer"
+        title="Cursos" />
+    <item
+        id="@+id/menu_seus_cursos"
+        icon="@android:drawable/bottom_bar"
+        title="Seus cursos" />
+    <item
+        id="@+id/menu_sua_conta"
+        icon="@android:drawable/ic_menu_manage"
+        title="Sua conta" />
+    <item
+        id="@+id/menu_ajuda"
+        icon="@android:drawable/ic_menu_help"
+        title="Ajuda" />
+</tabs>
