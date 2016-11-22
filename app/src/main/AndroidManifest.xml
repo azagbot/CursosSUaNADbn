@@ -19,16 +19,36 @@
         </activity>
         <activity
             android:name=".cursos"
-            android:label="@string/app_name"
+            android:label=""
             android:icon="@mipmap/ic_launcher"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-            android:name=".DescricaoAnalista"
-            android:label=""
+            android:name=".DescricaoDesign"
+            android:label="Design de interiores"
             android:icon="@mipmap/ic_launcher"
             android:parentActivityName=".cursos"
-            android:theme="@style/AppTheme">
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".cursos" />
+        </activity>
+        <activity
+            android:name=".DescricaoMecanica"
+           android:label="Técnico em mecânica"
+            android:icon="@mipmap/ic_launcher"
+            android:parentActivityName=".cursos"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".cursos" />
+        </activity>
+        <activity
+            android:name=".DescricaoArtes"
+           android:label="Artes visuais"
+            android:icon="@mipmap/ic_launcher"
+            android:parentActivityName=".cursos"
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".cursos" />
@@ -36,9 +56,9 @@
         <activity
             android:name=".DescricaoCursos"
             android:icon="@mipmap/ic_launcher"
-            android:label=""
+            android:label="Desenvolvimento Android"
             android:parentActivityName=".cursos"
-            android:theme="@style/AppTheme">
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".cursos" />
@@ -46,12 +66,42 @@
         <activity
             android:name=".DescricaoiOS"
             android:icon="@mipmap/ic_launcher"
-            android:label=""
+            android:label="Desenvolvimento iOS"
             android:parentActivityName=".cursos"
-            android:theme="@style/AppTheme">
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".cursos" />
+        </activity>
+        <activity
+            android:name=".Perguntas"
+            android:icon="@mipmap/ic_launcher"
+            android:label="Perguntas"
+            android:parentActivityName=".cursos"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".cursos" />
+        </activity>
+        <activity
+            android:name=".Respostas"
+            android:icon="@mipmap/ic_launcher"
+            android:label=""
+            android:parentActivityName=".Perguntas"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Perguntas" />
+        </activity>
+        <activity
+            android:name=".FaleConosco"
+            android:icon="@mipmap/ic_launcher"
+            android:label="Fale conosco"
+            android:parentActivityName=".cursos"
+            android:theme="@style/AppTheme.NoActionBar">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".cursos" />
         </activity>
     </application>
 </manifest>

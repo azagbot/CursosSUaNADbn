@@ -6,6 +6,10 @@
 
     <ListView
         android:layout_width="match_parent"
+        android:dividerHeight="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:divider="#f2f2f2"
         android:layout_height="match_parent"
         android:id="@+id/listView_cursos" />
 

@@ -49,6 +49,7 @@ public class IntroActivity extends AppCompatActivity {
         mViewPager = (ViewPager) findViewById(R.id.view_pager);
         dotsLayout = (LinearLayout)findViewById(R.id.layout_dots);
         mSKIP=(Button)findViewById(R.id.btn_skip);
+        mSKIP.setVisibility(View.GONE);
         mNEXT=(Button)findViewById(R.id.btn_next);
         layouts = new int[] {R.layout.intro_screen_1,R.layout.intro_screen_2,R.layout.intro_screen_3};
         addBottomDots(0);
@@ -67,12 +68,13 @@ public class IntroActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 int current = getItem(+1);
-                if(current<layouts.length){
+                if(current<=2){
                     mViewPager.setCurrentItem(current);
-                } else{
+                } else if (current==3){
                     startActivity(new Intent(IntroActivity.this,cursos.class));
                     finish();
                 }
+
             }
         });
     }
@@ -103,12 +105,12 @@ public class IntroActivity extends AppCompatActivity {
         public void onPageSelected(int position) {
             addBottomDots(position);
             if (position==layouts.length-1){
-                mNEXT.setText("PROCEED");
+                mNEXT.setText("Vem!");
                 mSKIP.setVisibility(View.GONE);
             }
             else{
-                mNEXT.setText("NEXT");
-                mSKIP.setVisibility(View.VISIBLE);
+                mNEXT.setText("Próximo");
+                mSKIP.setVisibility(View.GONE);
             }
         }
         @Override
@@ -140,9 +142,9 @@ public class IntroActivity extends AppCompatActivity {
         public boolean isViewFromObject(View view, Object object) {
             return view==object;
         }
+
         @Override
         public void destroyItem(ViewGroup container, int position, Object object) {
-            super.destroyItem(container, position, object);
             View v = (View) object;
             container.removeView(v);
         }

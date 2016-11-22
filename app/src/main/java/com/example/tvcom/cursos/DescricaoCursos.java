@@ -3,6 +3,7 @@ package com.example.tvcom.cursos;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -16,10 +17,10 @@ public class DescricaoCursos extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_descricao_curso);
         ImageView imageView=(ImageView) findViewById(R.id.imageView_Descricao);
-        TextView textView=(TextView) findViewById(R.id.textView_Descricao_CURSO);
-        textView.setText("Desenvolvimento Android");
-        imageView.setBackground(getResources().getDrawable(R.drawable.workingandroid));
-        getActionBar().setDisplayHomeAsUpEnabled(true);
 
+        imageView.setBackground(getResources().getDrawable(R.drawable.workingandroid));
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

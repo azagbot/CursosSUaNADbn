@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.tvcom.cursos.Respostas">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appBarLayout"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="      Nunca é tarde demais para se abrir um caminho novo. Você pode fazer o que quiser enquanto vive! Nunca é tarde demais para se abrir um caminho novo. Você pode fazer o que quiser enquanto vive! Nunca é tarde demais para se abrir um caminho novo. Você pode fazer o que quiser enquanto vive! Nunca é tarde demais para se abrir um caminho novo. Você pode fazer o que quiser enquanto vive! Nunca é tarde demais para se abrir um caminho novo. Você pode fazer o que quiser enquanto vive! Nunca é tarde demais para se abrir um caminho novo. Você pode fazer o que quiser enquanto vive! Nunca é tarde demais para se abrir um caminho novo. Você pode fazer o que quiser enquanto vive!"
+        android:id="@+id/textView_respostas"
+        android:gravity="start"
+        android:textSize="16sp"
+        android:layout_marginTop="56dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_height="wrap_content">
+    </TextView>
+</android.support.design.widget.CoordinatorLayout>

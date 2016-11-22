@@ -2,18 +2,20 @@
 <tabs>
     <tab
         id="@+id/menu_cursos"
-        icon="@android:drawable/ic_dialog_dialer"
+        icon="@drawable/acursos"
+        activeColor="@color/colorAccent"
+        inActiveColor="@color/TextColorSecondary"
         title="Cursos" />
-    <item
+    <tab
         id="@+id/menu_seus_cursos"
-        icon="@android:drawable/bottom_bar"
-        title="Seus cursos" />
-    <item
-        id="@+id/menu_sua_conta"
-        icon="@android:drawable/ic_menu_manage"
-        title="Sua conta" />
-    <item
+        icon="@drawable/bseuscursos"
+        activeColor="@color/colorAccent"
+        inActiveColor="@color/TextColorSecondary"
+        title="Seus Cursos" />
+    <tab
         id="@+id/menu_ajuda"
-        icon="@android:drawable/ic_menu_help"
+        icon="@drawable/cajuda"
+        activeColor="@color/colorAccent"
+        inActiveColor="@color/TextColorSecondary"
         title="Ajuda" />
 </tabs>
